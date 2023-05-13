@@ -1,0 +1,26 @@
+.feature-container {
+  border-radius: 1vh;
+  gap: 2vh;
+  border: 1px solid var(--Border);
+  display: flex;
+  padding: 1.7vh;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  cursor: pointer;
+  height: 2vh;
+}
+.feature-container:hover {
+  background-color: var(--Border);
+  scale: 1.1;
+}
+.feature__img {
+  display: flex;
+  justify-content: center;
+}
+.feature__img > img {
+  height: 1.5vh;
+}
+.feature__text {
+  font-size: 1.5vh;
+}

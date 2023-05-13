@@ -1,0 +1,31 @@
+footer { 
+ display: flex; 
+ place-content: center; 
+ height: 10vh; 
+ } 
+
+.footer-root { 
+ display: flex; 
+ height: 4vh; 
+ justify-content: center;
+ gap: 5vh;
+ z-index: 1; 
+ margin-bottom: 2vh; 
+ padding: 2vh; 
+ border-radius: 1vh; 
+ color: var(--White); 
+ bottom: 0px; 
+ position: fixed; 
+ width: 80%; 
+ background-color: var(--NavbarBackground); 
+ align-items: center; 
+ font-family: 'Nunito', sans-serif; 
+ backdrop-filter: blur(10px); 
+ border: 1px solid var(--Border); 
+ animation: move 1s; 
+ } 
+
+.footer-text { 
+ font-size: 2vh; 
+ } 
+

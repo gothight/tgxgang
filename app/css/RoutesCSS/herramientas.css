@@ -1,0 +1,25 @@
+#tools {
+  background-color: var(--NavbarItemContainerSelected);
+  cursor: pointer;
+}
+.landing-root {
+  width: 100%;
+  gap: 1vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.landing-root > h1 {
+  margin: 0;
+  font-size: 4vh;
+}
+.landing-root > h2 {
+  font-size: 3vh;
+}
+.cards {
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

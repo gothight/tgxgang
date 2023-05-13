@@ -1,0 +1,71 @@
+
+  .card-container {
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--NavbarBackground);
+    border: 1px solid var(--Border);
+    align-items: center;
+    text-align: left;
+    width: 30vh;
+    border-radius: 1vh;
+    padding: 2vh 1vh 3vh;
+    transition: .3s;
+    justify-content: space-between;
+  }
+  .card-container:hover {
+    scale: 1.1;
+  }
+  .card-image {
+    width: 25vh;
+    border-radius: 1vh;
+  }
+  .card-text-container {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: left;
+    gap: .4vh;
+  }
+  .card-author {
+    color: #4a4a4a;
+    font-size: 2vh;
+  }
+  .card-description {
+    color: #a2a2a2;
+    font-size: 2vh;
+  }
+  .card-title {
+    font-size: 2.5vh;
+  }
+  .card-button {
+    transition: .3s;
+    display: flex;
+    border: 0px;
+    border-radius: 1vh;
+    cursor: pointer;
+    background-color: initial;
+    padding: 1.4vh;
+    font-size: 1.7vh;
+    color: var(--White);
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-button > img {
+    width: 14%;
+    margin-right: 5%;
+  }
+  .card-button:hover {
+    background-color: var(--Border);
+  }
+ 
+  .card-buttons-container {
+    display: flex;
+    gap: 5%;
+  }
+  

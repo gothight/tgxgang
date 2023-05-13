@@ -1,0 +1,85 @@
+/* app/css/descargas.css */
+#home { 
+ background-color: var(--NavbarItemContainerSelected); 
+ cursor: pointer; 
+ } 
+.landing-root { 
+ display: flex; 
+ align-items: center; 
+ gap: 6vh; 
+ padding: 5vh; 
+ height: 55vh; 
+ justify-content: center; 
+ flex-wrap: wrap; 
+ } 
+.showcase { 
+ width: 40%; 
+ display: flex; 
+ justify-content: center; 
+ } 
+.showcase > img { 
+ width: 100%; 
+ } 
+.text { 
+ display: flex; 
+ width: 45%; 
+ padding: 3vh; 
+ flex-direction: column; 
+ } 
+.text > h1 { 
+ font-size: 3.5vh; 
+ } 
+.text > h2 { 
+ font-size: 3.3vh; 
+ } 
+.text > h2 > span { 
+ color: var(--Gray); 
+ } 
+.buttons { 
+ display: flex; 
+ } 
+.features { 
+ margin-bottom: 5vh; 
+ background-color: var(--NavbarBackground); 
+ padding: 1vh; 
+ gap: 1vh; 
+ border: 1px solid var(--Border); 
+ display: flex; 
+ justify-content: center; 
+ background: var; 
+ align-items: center; 
+ flex-direction: row; 
+ flex-wrap: wrap; 
+ } 
+.button { 
+ transition: 0.3s; 
+ border: 0px; 
+ border-radius: 1vh; 
+ cursor: pointer; 
+ margin-top: 2vh;
+ background-color: var(--NavbarBackground); 
+ border: 1px solid var(--Border); 
+ padding: 1.4vh; 
+ font-size: 1.7vh; 
+ color: var(--White); 
+ width: 100%; 
+ text-align: center; 
+ text-decoration: none; 
+ } 
+.button:hover { 
+ background-color: var(--Border); 
+ } 
+@media only screen and (max-width: 800px) { 
+ .showcase { 
+ width: 100%; 
+ } 
+ .text { 
+ width: 100%; 
+ text-align: center; 
+ padding: 0vh; 
+ flex-direction: column; 
+ } 
+ .landing-root { 
+ height: inherit; 
+ } 
+ } 

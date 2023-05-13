@@ -1,0 +1,17 @@
+/* app/css/RoutesCSS/Status.css */
+#status {
+  background-color: var(--NavbarItemContainerSelected);
+  cursor: pointer;
+}
+.textmain {
+  text-align: center;
+  font-size: 2vh;
+}
+.CardContainer {
+  display: flex;
+  gap: 1vh;
+  align-items: center;
+  padding: 3vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
