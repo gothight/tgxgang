@@ -10,6 +10,7 @@ export interface Props {
   author: string;
   description: string;
   to?: string;
+  working?: boolean | true;
 }
 
 export const Card = (props: Props) => {
@@ -23,8 +24,9 @@ export const Card = (props: Props) => {
           <p className="card-description">{props.description}</p>
         </div>
 
-        <Link className="card-button" to={props.to!}>
-          Descargar
+        <Link className="card-button"  
+ to={props.working === true ? props.to! : ""} >
+        {props.working === true ? "Descargar" : "Deshabilitado"}
         </Link>
       </div>
     </>

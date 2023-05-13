@@ -14,6 +14,8 @@ export const links = () => {
 
 export const x = [
   {
+    working: false,
+
     showcase: require("~assets/showcase.png"),
     title: "TGX V4",
     author: "The Gabloxia",
@@ -25,6 +27,8 @@ export const x = [
     id: "1",
   },
   {
+    working: false,
+
     showcase: require("~assets/v3.png"),
     title: "TGX V3",
     author: "The Gabloxia",
@@ -36,6 +40,7 @@ export const x = [
     id: "2",
   },
   {
+    working: false,
     showcase: require("~assets/v2.png"),
     title: "TGX V2",
     author: "The Gabloxia",
@@ -100,6 +105,7 @@ export default function Index() {
               author={post.author}
               to={post.downloadcdn}
               img={post.showcase}
+              working={post.working}
             />
           ))}
         </div>
@@ -117,6 +123,7 @@ export default function Index() {
             author="Y2K06b"
             description="Nuevo, nivel 7 con ui moderna y las mejores opciones de TGX!"
             to="https://y2k06.xyz/"
+            working={false}
           />
           <Card
             img={require("~assets/ArceusXX.png")}
@@ -124,6 +131,7 @@ export default function Index() {
             author="Arceus X Devs"
             description="El primer mod para movil, capaz de ejecutar casi todos los scripts!"
             to="https://link-center.net/183458/arceus-roblox-hack-mobile"
+            working
           />
         </div>
       </section>
