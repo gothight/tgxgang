@@ -1,7 +1,8 @@
-import { Link, V2_MetaFunction } from "@remix-run/react";
 import { useState as usestate } from "react";
-import { LoaderCSS, Soader } from "~components/Loader";
+import { LoaderCSS } from "~components/Loader";
 import { useFetchResult as fetchscripts } from "~/fetch/FetchScripts";
+import type { V2_MetaFunction } from "@remix-run/node";
+import { Link } from "@remix-run/react";
 
 
 export const meta: V2_MetaFunction = () => {
@@ -10,13 +11,14 @@ export const meta: V2_MetaFunction = () => {
     { name: "description", content: "The Gabloxia Gang · Scripts \n Los mejores scripts en tgxgang" },
     { property: "og:title", content: "The Gabloxia Gang" },
     { author: "The Gabloxia" },
-    { "theme-color": "#00000" },
-    { "og:keywords": "TGX, TGX GANG, tgx v4, scripts" },
-    { "twitter:title": "The Gabloxia Gang" },
-    { "twitter:description": "The Gabloxia Gang · Sitio Web Oficial" },
-    { "twitter:card": "summary_large_image" },
-    { "og:image": require("~assets/TGX Wallpaper.png") },
-    { "twitter:image1": require("~assets/TGX Wallpaper.png") }
+    { name: "theme-color", content: "#00000" },
+    { property: "og:keywords" ,content: "TGX, TGX GANG, tgx v4, scripts" },
+    { property: "twitter:title", content: "The Gabloxia Gang" },
+    { property: "twitter:description", content: "The Gabloxia Gang · Sitio Web Oficial" },
+    { property:  "twitter:card" , content: "summary_large_image" },
+    { property: "og:image", content: require("~assets/TGX Wallpaper.png") },
+    { property: "twitter:image1", content: require("~assets/TGX Wallpaper.png") }
+
 
 
   ];

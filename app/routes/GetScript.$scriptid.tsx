@@ -1,9 +1,8 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-import { Link, useLocation } from "@remix-run/react";
 import React from "react";
 import { Soader, LoaderCSS } from "~components/Loader";
 
-import { useFetchResult } from "~/fetch/FetchScripts";
+import { useFetchResult as usefetch } from "~/fetch/FetchScripts";
+import { useLocation as uselocation } from "@remix-run/react";
 export const links = () => {
   return [
     ...LoaderCSS(),
@@ -11,15 +10,10 @@ export const links = () => {
   ];
 };
 
-class App extends React.Component {
-  state = {
-    value: "",
-    copied: false,
-  };
-}
+
 export default function script() {
-  const data = useFetchResult();
-  const location = useLocation();
+  const data = usefetch();
+  const location = uselocation();
   const url = location.pathname
     .split("/")
     .pop()

@@ -1,6 +1,6 @@
 import { useEffect as useeffect, useState as usestate } from "react";
 import { fetch as fetchData, FetchResultTypes } from "@sapphire/fetch";
-import { LoaderCSS, Soader } from "~components/Loader";
+import { LoaderCSS } from "~components/Loader";
 interface JsonResult {
 
   activo: boolean;

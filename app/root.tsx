@@ -1,4 +1,3 @@
-import { cssBundleHref } from "@remix-run/css-bundle";
 import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 
 import {
@@ -40,21 +39,21 @@ export const links: LinksFunction = () => [
 export const meta: V2_MetaFunction = () => {
   return [
     { title: "The Gabloxia Gang ⛧ Sitio Web" },
-    { name: "description", content: "The Gabloxia Gang · Sitio Web Oficial" },
+    { name: "description", content: "The Gabloxia Gang · Sitio web official" },
     { property: "og:title", content: "The Gabloxia Gang" },
     { author: "The Gabloxia" },
-    { "theme-color": "#00000" },
-    { "og:keywords": "TGX, TGX GANG, tgx v4, roblox" },
-    { "twitter:title": "The Gabloxia Gang" },
-    { "twitter:description": "The Gabloxia Gang · Sitio Web Oficial" },
-    { "twitter:card": "summary_large_image" },
-    { "og:image": require("~assets/TGX Wallpaper.png") },
-    { "twitter:image1": require("~assets/TGX Wallpaper.png") }
+    { name: "theme-color", content: "#00000" },
+    { property: "og:keywords" ,content: "TGX, TGX GANG, tgx v4, scripts" },
+    { property: "twitter:title", content: "The Gabloxia Gang" },
+    { property: "twitter:description", content: "The Gabloxia Gang · Sitio Web Oficial" },
+    { property:  "twitter:card" , content: "summary_large_image" },
+    { property: "og:image", content: require("~assets/TGX Wallpaper.png") },
+    { property: "twitter:image1", content: require("~assets/TGX Wallpaper.png") }
+
 
 
   ];
 }
-
 
 export function Footerz() {
   return (

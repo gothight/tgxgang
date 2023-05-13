@@ -17,7 +17,7 @@ export const ToolCard = (props: Props) => {
   return (
     <>
       <div className="card-container">
-        <img src={props.img} alt="Card Image" className="card-image" />
+        <img src={props.img} alt="Card" className="card-image" />
         <div className="card-text-container">
           <h2 className="card-title">{props.title}</h2>
           <p className="card-author">{props.author}</p>
