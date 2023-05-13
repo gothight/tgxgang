@@ -1,7 +1,26 @@
-import { Link } from "@remix-run/react";
+import { Link, V2_MetaFunction } from "@remix-run/react";
 import { useState as usestate } from "react";
 import { LoaderCSS, Soader } from "~components/Loader";
 import { useFetchResult as fetchscripts } from "~/fetch/FetchScripts";
+
+
+export const meta: V2_MetaFunction = () => {
+  return [
+    { title: "The Gabloxia Gang ⛧ Sitio Web" },
+    { name: "description", content: "The Gabloxia Gang · Scripts \n Los mejores scripts en tgxgang" },
+    { property: "og:title", content: "The Gabloxia Gang" },
+    { author: "The Gabloxia" },
+    { "theme-color": "#00000" },
+    { "og:keywords": "TGX, TGX GANG, tgx v4, scripts" },
+    { "twitter:title": "The Gabloxia Gang" },
+    { "twitter:description": "The Gabloxia Gang · Sitio Web Oficial" },
+    { "twitter:card": "summary_large_image" },
+    { "og:image": require("~assets/TGX Wallpaper.png") },
+    { "twitter:image1": require("~assets/TGX Wallpaper.png") }
+
+
+  ];
+}
 
 export function links() {
   return [
