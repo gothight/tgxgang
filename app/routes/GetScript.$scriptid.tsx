@@ -32,7 +32,7 @@ export default function script() {
     );
 
   const features = ` ${found.caracteristicas} `;
-  const codigo = `loadstring(game:HttpGet('${found.txt}', true))()`;
+  const codigo = `${found.txt}`;
 
   const downloadTxtFile = () => {
     const element = document.createElement("a");
