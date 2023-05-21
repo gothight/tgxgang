@@ -57,14 +57,14 @@ export default function Index() {
     <>
       <main>
         <div className="landing-root">
-          <img src={require("~assets/showcase.png")} alt="showcase" />
+          <img src={require("https://cdn.discordapp.com/attachments/1068740964044251168/1109973726914691072/image.png")} alt="showcase" />
 
           <div className="landing-root__text">
-            <h1>Los Mejores Mods & Scripts!</h1>
+            <h1>TGX V5!</h1>
 
             <p>Aca encontraras los mejores mods y scripts de roblox</p>
             <div className="landing-root__buttons">
-              <LandingButton text="Mods" hreff="#mods" />
+              <LandingButton text="Descargar" hreff="https://link-hub.net/183458/tgx-v5" />
               <LandingButton text="Scripts" hreff="/Scripts" />
             </div>
           </div>
