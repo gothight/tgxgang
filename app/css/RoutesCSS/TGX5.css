@@ -43,6 +43,7 @@
   font-weight: 600;
 }
 .root span {
+      margin-right: 5px;
   color: gray;
 }
 .info > a {
