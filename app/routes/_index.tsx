@@ -13,6 +13,19 @@ export const links = () => {
 };
 
 export const x = [
+ {
+    working: true,
+
+    showcase: require("~assets/showcase.png"),
+    title: "TGX V5",
+    author: "The Gabloxia",
+    description:
+      "El nuevo mejor exploit sin key y nivel 7, con mas de 4000 scripts",
+    downloadcdn: "/tgxv",
+    features:
+      " Nivel 7 / +4000 Scripts / Sin ban / Sin Virus / Sin Key",
+    id: "1",
+  },
   {
     working: false,
 
@@ -24,7 +37,7 @@ export const x = [
     downloadcdn: "/descargas/TGXV4",
     features:
       " Nivel 7 / +180 Juegos / Auto Inyectar / Auto ejecutar / Sin ban / Sin Virus / Sin Key",
-    id: "1",
+    id: "2",
   },
   {
     working: false,
@@ -37,7 +50,7 @@ export const x = [
     downloadcdn: "/descargas/TGXV3",
     features:
       " Nivel 7/180 Juegos/Sin ban/Fps Booster/Sin Virus/Sin Key/Anti AFK/Update APIS",
-    id: "2",
+    id: "3",
   },
   {
     working: false,
@@ -48,7 +61,7 @@ export const x = [
     downloadcdn: "/descargas/TGXV2",
     features:
       "Nivel 7/Variedad de juegos/Muy compatible/No usa mucha ram/Sin Virus/Sin Key/Facil de usar/Actualizable!    ",
-    id: "3",
+    id: "4",
   },
 ];
 
