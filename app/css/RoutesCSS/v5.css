@@ -1,0 +1,110 @@
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap");
+
+    :root {
+        --body-fondo: #151515;
+        --navbar-fondo: #202020;
+        --div-contenido-fondo: #1A1A1A;
+        --texto: #f5f5f5;
+        --texto-links: #88ff8f;
+        --input-fondo: #262626;
+        --input-texto: #f5f5f5;
+        --input-placeholder: #808080;
+        --textarea-fondo: #262626;
+        --textarea-texto: #f5f5f5;
+        --boton-fondo: #282828;
+
+        /* menor saturación del color original #5FD7FE */
+        --boton-texto: #fff;
+        --boton-hover: #2A2A2A;
+        /* menor saturación del color original #007bff */
+        --boton-active: #252525;
+        /* menor saturación del color original #002c5b */
+        --boton-pressed: #252525;
+        --tabla-fondo: #262626;
+        --tabla-texto: #f5f5f5;
+        --tabla-hover: #1c1c1c;
+        --transicion: 0.3s ease-in-out;
+        --border-radius: 3px;
+        --boton-padding: 6px;
+
+        --separador-fondo: #282828;
+    }
+
+    h1 {
+        font-weight: 700;
+        color: white;
+    }
+
+    p {
+        font-weight: 600;
+        color: gray;
+    }
+
+    body {
+
+        font-size: 16px;
+        min-height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--body-fondo);
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        animation: fade 0.3s ease-in-out;
+        scroll-behavior: smooth;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    a {
+        -webkit-user-select: none;
+        text-decoration: none;
+        color: #595C66;
+        font-weight: 600;
+    }
+
+    span {
+        color: gray;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        position: relative;
+        font-weight: normal;
+        padding: 0;
+    }
+
+
+
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    @keyframes fade-out {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
