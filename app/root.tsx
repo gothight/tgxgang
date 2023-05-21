@@ -10,7 +10,7 @@ import {
   ScrollRestoration,
   useRouteError,
 } from "@remix-run/react";
-
+import "~styles/GlobalCSS/global.css"
 
 export const links: LinksFunction = () => [
   {

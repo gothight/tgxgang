@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap";
+
+/* app/css/RoutesCSS/TGX5.css */
+.root h1 {
+  font-weight: 700;
+  color: #fff;
+}
+.root p {
+  font-weight: 600;
+  color: gray;
+}
+.info {
+  display: flex;
+  gap: 5px;
+}
+.info > p {
+  color: #71bbff;
+}
+.root {
+  display: flex;
+  font-size: 16px;
+  min-height: 70vh;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.miniroot {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: #1a1a1a;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.root a {
+  -webkit-user-select: none;
+  text-decoration: none;
+  color: #595c66;
+  font-weight: 600;
+}
+.root span {
+  color: gray;
+}
+.info > a {
+  color: #82ffcb;
+}
+.landing-root {
+    display: flex;
+    height: 75vh;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
