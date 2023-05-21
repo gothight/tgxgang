@@ -54,17 +54,17 @@ export const x = [
 
 export default function Index() {
   return (
-    <>
-      <main>
+    
+         <main>
         <div className="landing-root">
-          <img src={require("https://cdn.discordapp.com/attachments/1068740964044251168/1109973726914691072/image.png")} alt="showcase" />
+          <img src={require("~assets/showcase.png")} alt="showcase" />
 
           <div className="landing-root__text">
-            <h1>TGX V5!</h1>
+            <h1>Los Mejores Mods & Scripts!</h1>
 
             <p>Aca encontraras los mejores mods y scripts de roblox</p>
             <div className="landing-root__buttons">
-              <LandingButton text="Descargar" hreff="/TGXV" />
+              <LandingButton text="Mods" hreff="#mods" />
               <LandingButton text="Scripts" hreff="/Scripts" />
             </div>
           </div>
