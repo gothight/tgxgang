@@ -64,7 +64,7 @@ export default function Index() {
 
             <p>Aca encontraras los mejores mods y scripts de roblox</p>
             <div className="landing-root__buttons">
-              <LandingButton text="Descargar" hreff="https://link-hub.net/183458/tgx-v5" />
+              <LandingButton text="Descargar" hreff="/TGXV" />
               <LandingButton text="Scripts" hreff="/Scripts" />
             </div>
           </div>
