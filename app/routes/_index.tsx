@@ -22,7 +22,7 @@ export const x = [
     description:
       "El nuevo mejor exploit sin key y nivel 7, con mas de 4000 scripts",
     downloadcdn: "/descargas/TGXV",
-    downloadlink: "https://link-hub.net/183458/tgx-v5",
+    downloadlink: "https://tgxgang.xyz/tgxv",
     features:
       " Nivel 7 / +4000 Scripts / Sin ban / Sin Virus / Sin Key",
     id: "1",
