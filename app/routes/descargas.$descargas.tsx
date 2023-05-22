@@ -42,9 +42,9 @@ export default function descargas() {
               a cualquier hora
             </p>
             <div className="buttons">
-              <Link className="button" to={found.downloadcdn}>
+              <Link className="button" to={found.downloadlink}>
                 Descargar
-              </Link>{" "}
+              </Link>
             </div>
           </div>
         </div>

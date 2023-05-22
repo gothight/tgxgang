@@ -14,18 +14,22 @@ export const links = () => {
 
 export const x = [
   {
-    working: false,
+    working: true,
 
     showcase: require("~assets/showcase.png"),
-    title: "TGX V4",
+    title: "TGX V5",
     author: "The Gabloxia",
     description:
       "Nivel 7, multi api, +200 scripts, auto attach, auto execute y mucho más!",
-    downloadcdn: "/descargas/TGXV4",
+    downloadcdn: "/descargas/TGXV5",
     features:
-      " Nivel 7 / +180 Juegos / Auto Inyectar / Auto ejecutar / Sin ban / Sin Virus / Sin Key",
+      " Nivel 7 / +380 Juegos / Auto Inyectar / Auto ejecutar / Sin ban / Sin Virus / Sin Key",
     id: "1",
+    downloadlink: "https://link-hub.net/183458/tgx-v5"
   },
+
+ /*
+ 
   {
     working: false,
 
@@ -50,6 +54,7 @@ export const x = [
       "Nivel 7/Variedad de juegos/Muy compatible/No usa mucha ram/Sin Virus/Sin Key/Facil de usar/Actualizable!    ",
     id: "3",
   },
+  */
 ];
 
 export default function Index() {
