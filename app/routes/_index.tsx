@@ -21,7 +21,7 @@ export const x = [
     author: "The Gabloxia",
     description:
       "El nuevo mejor exploit sin key y nivel 7, con mas de 4000 scripts",
-    downloadcdn: "/tgxv",
+    downloadcdn: "/descargas/TGXV",
     downloadlink: "https://link-hub.net/183458/tgx-v5",
     features:
       " Nivel 7 / +4000 Scripts / Sin ban / Sin Virus / Sin Key",
