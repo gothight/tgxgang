@@ -1,5 +1,5 @@
 import { Link, useLocation as uselocation } from "@remix-run/react";
-import { LandingButton, Lbtncss } from "~components/LandingButton";
+import { Lbtncss } from "~components/LandingButton";
 import { x } from "./_index";
 import { Feature, links as FeatureCSS } from "~components/DownloadFeature";
 export const links = () => {
