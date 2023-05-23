@@ -24,7 +24,7 @@ export const x = [
     downloadcdn: "/descargas/TGXV",
     downloadlink: "https://tgxgang.xyz/tgxv",
     features:
-      " Nivel 7 / +4000 Scripts / Sin ban / Sin Virus / Sin Key",
+      " Nivel 7 / +4000 Scripts / Sin ban / Sin Virus / Sin Key / COdigo abierto",
     id: "1",
   },
   
