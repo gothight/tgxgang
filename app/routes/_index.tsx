@@ -14,7 +14,7 @@ export const links = () => {
 
 export const x = [
  {
-    working: true,
+    working: false,
 
     showcase: require("~assets/showcase.png"),
     title: "TGX V5",
