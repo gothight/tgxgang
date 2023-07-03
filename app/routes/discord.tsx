@@ -2,7 +2,7 @@ import { Component } from "react";
 
 class Discord extends Component {
   componentDidMount() {
-    window.location.href = 'https://discord.gg/we-love-you-gabloxia-768962587462598697';
+    window.location.href = 'https://snuff.gabloxia.xyz/tgx/discord';
   }
 
   render() {
