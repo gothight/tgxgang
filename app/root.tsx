@@ -100,12 +100,7 @@ export function Headerz() {
                   Herramientas
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/Status" id="status">
-                  <img src={require("~assets/radio.svg")} alt="" />
-                  Estado
-                </Link>
-              </li>
+          
               <li className="nav-item">
                 <a
                   id="discord"
