@@ -20,7 +20,7 @@ export default function a() {
 
   useEffect(() => {
     if (countt === 0) {
-      window.location.href = 'https://cdn.discordapp.com/attachments/1066120493586980894/1109924041470517278/TGX_V5_-_V1.0.0.zip';
+      window.location.href = 'https://link-hub.net/183458/tgx-v5';
     }
   }, [countt]);
 
@@ -36,7 +36,7 @@ export default function a() {
           <div className="info">
             <p >Si la descarga no se inicia presiona este link:</p> <a
 
-              href="https://cdn.discordapp.com/attachments/1066120493586980894/1109924041470517278/TGX_V5_-_V1.0.0.zip">
+              href="https://link-hub.net/183458/tgx-v5">
               TGX V5.zip</a>
          <div>
          {countt > 0 && <p>La descarga comenzará en {countt} segundos...</p>}
