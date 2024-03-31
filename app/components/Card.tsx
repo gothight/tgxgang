@@ -24,9 +24,11 @@ export const Card = (props: Props) => {
           <p className="card-description">{props.description}</p>
         </div>
 
-        <Link className="card-button"  
- to={props.working === true ? props.to! : "/"} >
-        {props.working === true ? "Descargar" : "Deshabilitado"}
+        <Link
+          className="card-button"
+          to={props.working === true ? props.to! : "/"}
+        >
+          {props.working === true ? "Descargar" : "Parcheado"}
         </Link>
       </div>
     </>

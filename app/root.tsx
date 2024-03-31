@@ -94,17 +94,11 @@ export function Headerz() {
                   Scripts
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/Herramientas" id="tools">
-                  <img src={require("~assets/tools.svg")} alt="" />
-                  Herramientas
-                </Link>
-              </li>
           
               <li className="nav-item">
                 <a
                   id="discord"
-                  href="https://discord.gg/we-love-you-gabloxia-768962587462598697"
+                  href="https://discord.gg/the-gabloxia-gang-768962587462598697"
                   target="_blank" rel="noreferrer"
                 >
                   <img src={require("~assets/discord.svg")} alt="" />

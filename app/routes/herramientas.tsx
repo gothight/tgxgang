@@ -1,3 +1,4 @@
+/*
 import { LinksFunction } from "@remix-run/node";
 import { ToolCard, cssToolCard } from "~components/ToolCard";
 export const links: LinksFunction = () => {
@@ -28,3 +29,5 @@ export default function herramientas() {
     </>
   );
 }
+
+*/
