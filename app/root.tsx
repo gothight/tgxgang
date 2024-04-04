@@ -45,7 +45,7 @@ export const meta: V2_MetaFunction = () => {
     { name: "theme-color", content: "#00000" },
     { property: "og:keywords" ,content: "TGX, TGX GANG, tgx v4, scripts" },
     { property: "twitter:title", content: "The Gabloxia Gang" },
-    { property: "twitter:description", content: "The Gabloxia Gang · Sitio Web Oficial" },
+    { property: "twitter:description", content: "The Gabloxia Gang · Sitio Wxb Oficial" },
     { property:  "twitter:card" , content: "summary_large_image" },
     { property: "og:image", content: require("~assets/TGX Wallpaper.png") },
     { property: "twitter:image1", content: require("~assets/TGX Wallpaper.png") }
